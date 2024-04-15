@@ -36,13 +36,13 @@ function App() {
 
    <main>
     <section>
-      <h1>About</h1>
+      <h4>Welcome to my</h4>
     </section>
     <section>
-      <h1>Portfoliio</h1>
+      <h1>Portfolio Page</h1>
     </section>
    </main>
-   <button type="button" class="btn btn-primary">Primary</button>
+   <button type="button" class="btn btn-primary">View Portfolio</button>
     </>
   );
 }

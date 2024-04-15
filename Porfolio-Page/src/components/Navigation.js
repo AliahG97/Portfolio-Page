@@ -4,6 +4,7 @@ export default function Navigation(props) {
   const { setCurrentPage } = props;
 
   return (
+    
     // <nav>
     //   <ul>
     //     <li>
