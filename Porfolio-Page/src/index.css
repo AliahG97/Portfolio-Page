@@ -1,3 +1,6 @@
+* {
+  background-color: pink;
+}
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -62,5 +65,22 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+img.logo{
+  width:2.5vw;
+  height:2.5vh;
+}
+.footerLinks{
+display: flex;
+flex-direction: row;
+}
+
+.footer, .copyright{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  
+  
 }
 

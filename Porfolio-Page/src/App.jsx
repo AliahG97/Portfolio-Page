@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import Header from "./components/Header";
 // import Nav from "./components/Nav";
-// import Footer from "./components/Footer";
-import Welcome from './components/Welcome'
-
+import Footer from "./components/Footer";
+// import Aliah from "../assets/Images/Aliah.jpg"
 function App() {
   // const [pages] = useState([
   //   {
@@ -41,8 +40,11 @@ function App() {
     <section>
       <h1>Portfolio Page</h1>
     </section>
+    {/* <Aliah/> */}
+    
    </main>
    <button type="button" class="btn btn-primary">View Portfolio</button>
+   <Footer/>
     </>
   );
 }
