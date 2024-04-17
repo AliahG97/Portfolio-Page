@@ -70,6 +70,27 @@ img.logo{
   width:2.5vw;
   height:2.5vh;
 }
+.img-container img{
+  width:100%;
+  
+}
+.img-container{
+  max-width:20rem;
+  min-width:10rem;
+}
+.About{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.About-text{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  max-width:70rem;
+  min-width:35rem;
+}
 .footerLinks{
 display: flex;
 flex-direction: row;

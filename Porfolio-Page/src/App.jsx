@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Header from "./components/Header";
-// import Nav from "./components/Nav";
+import About from "./components/About";
 import Footer from "./components/Footer";
 // import Aliah from "../assets/Images/Aliah.jpg"
 function App() {
@@ -44,6 +44,8 @@ function App() {
     
    </main>
    <button type="button" class="btn btn-primary">View Portfolio</button>
+
+   <About/>
    <Footer/>
     </>
   );
